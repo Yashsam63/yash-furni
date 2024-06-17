@@ -1,0 +1,189 @@
+/* External Font-URL */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+/* css reset */
+*{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Inter ",sans-serif;
+
+}
+
+/* navbar styling */
+:root{
+    --navbar-height: 84px;
+}
+.navbar{
+ color:#6a6a6a;
+ background: #3b5d50;;
+ padding: 10px 15px 10px;
+
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo  {
+    margin-left: 120px;
+    margin-top: 15px;;
+}
+.logo a {
+    font-size: 29px;
+    font-weight: bolder;
+    color:#ffffff;
+   
+   
+
+}
+li{
+    display:inline-block;
+}
+li a{
+    font-size:14px;
+    font-weight: 300;
+    color:#b29d9d;
+    margin-right: 20px;
+    padding: 10px;
+    opacity: 0.99;
+    position :relative;
+
+}
+#li ::before{
+    content: "";
+    position: absolute;
+    left:0;
+    top:100%;
+    width: 0 ;
+    height: 4px;
+    background-color: rgb(255, 174, 0);
+    transition: all 0.2s linear;
+}
+#li :hover::before{
+    width:100%;
+}
+#li :hover{
+    color: aliceblue;
+    font-weight: bold;
+}
+/* navbar styling ends here  */
+:root{
+    --navbar-height: 84px;
+}
+.navbar{
+ color:#6a6a6a;
+ background: #3b5d50;;
+ padding: 10px 15px 10px;
+
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo  {
+    margin-left: 120px;
+    margin-top: 15px;;
+}
+.logo a {
+    font-size: 29px;
+    font-weight: bolder;
+    color:#ffffff;
+   
+   
+
+}
+li{
+    display:inline-block;
+}
+li a{
+    font-size:14px;
+    font-weight: 300;
+    color:#b29d9d;
+    margin-right: 20px;
+    padding: 10px;
+    opacity: 0.99;
+    position :relative;
+
+}
+#li ::before{
+    content: "";
+    position: absolute;
+    left:0;
+    top:100%;
+    width: 0 ;
+    height: 4px;
+    background-color: rgb(255, 174, 0);
+    transition: all 0.2s linear;
+}
+#li :hover::before{
+    width:100%;
+}
+#li :hover{
+    color: aliceblue;
+    font-weight: bold;
+}
+/* navbar styling ends here  */
+ 
+ /* product section starts here  */
+ .shop{
+  height:60px;
+  width:100%;
+  background-color: #3b5d50;
+  font-size: 40px;
+  padding-left: 125px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  font-weight:750;
+
+ }
+ .shop  a {
+  color: #ffffff;
+ 
+ }
+
+
+.products{
+  border: 2px solid red;
+ justify-content: center;
+ align-items: center;
+  display:flex;
+  margin: 50px 20px 50px ;
+  padding:0px 20px 0px ;
+}
+.products div{
+  text-align: center;
+}
+.products div img{
+  align-items: center;
+  height: 256px;
+}
+#product1{
+  border: 2px solid black;
+  margin:10px;
+  padding:10px;
+}
+#product2{
+  border: 2px solid black;
+  margin:10px;
+  padding:10px;
+}
+
+#product3{
+  border: 2px solid black;
+  margin:10px;
+  padding:10px;
+}
+
+#product4{
+  border: 2px solid black;
+  margin:10px;
+  padding:10px;
+}
+
+.products div p{
+  color:black;
+  font-weight: bold;
+}
